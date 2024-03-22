@@ -1,0 +1,53 @@
+{
+  "name": "doloremfuga",
+  "version": "1.0.0",
+  "description": "JS implementation of DAG-PB",
+  "main": "./src/index.js",
+  "types": "./types/src/index.d.ts",
+  "type": "module",
+  "exports": {
+    "import": "./src/index.js"
+  },
+  "license": "(Apache-2.0 AND MIT)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnyaWalsh/doloremfuga.git"
+  },
+  "keywords": [
+    "IPFS",
+    "IPLD"
+  ],
+  "homepage": "https://github.com/AnyaWalsh/doloremfuga.git",
+  "dependencies": {
+    "multiformats": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.16",
+    "@types/mocha": "^9.0.0",
+    "chai": "^4.2.0",
+    "chai-subset": "^1.6.0",
+    "hundreds": "^0.0.9",
+    "ipjs": "^5.0.0",
+    "mocha": "^9.0.0",
+    "polendina": "^1.1.0",
+    "standard": "^16.0.3",
+    "typescript": "^4.2.3"
+  },
+  "standard": {
+    "ignore": [
+      "dist",
+      "test/ts-use/src/main.js"
+    ]
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "types/*"
+      ],
+      "types/*": [
+        "types/*"
+      ]
+    }
+  },
+  "author": "OrrinBode"
+}
